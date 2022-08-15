@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1{
+  margin-top: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.65rem;
+  color: DimGrey;
+}
+.H2 {
+  padding-top: 50px;
+  color: white;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: DimGrey;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18.5px;
+}
+.top-container {
+  background-color: #FAD6A5;
+  position: relative;
+  padding-top: 100px;
+}
+.top-container {
+  background-image: url("../images/ocean.jpg");
+  background-position: center;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size:cover;
+  padding-bottom: 350px;
+}
+.middle-container {
+}
+
+.bottom-container {
+  background-color: #FAD6A5;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.ocean {
+  height: 400px;
+}
+.video-game-picture {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #07d0eb;
+  background-image: -webkit-linear-gradient(top, #07d0eb, #07d0eb);
+  background-image: -moz-linear-gradient(top, #07d0eb, #07d0eb);
+  background-image: -ms-linear-gradient(top, #07d0eb, #07d0eb);
+  background-image: -o-linear-gradient(top, #07d0eb, #07d0eb);
+  background-image: linear-gradient(to bottom, #07d0eb, #07d0eb);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #09bcf2;
+  background-image: -webkit-linear-gradient(top, #09bcf2, #09bcf2);
+  background-image: -moz-linear-gradient(top, #09bcf2, #09bcf2);
+  background-image: -ms-linear-gradient(top, #09bcf2, #09bcf2);
+  background-image: -o-linear-gradient(top, #09bcf2, #09bcf2);
+  background-image: linear-gradient(to bottom, #09bcf2, #09bcf2);
+  text-decoration: none;
+}
+
+a {
+  color: dimgrey;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.paragraph {
+  margin: 10px 20px 40px 20px;
+
+}
+.copyright {
+  font-size: 0.75rem;
+  margin-top: 40px;
+}
+.code {
+  width: 25%;
+  float:left;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
+.topnav {
+  background-color: LightGrey;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px 10px 0 10px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #black;
+  color: white;
+}
+.name {
+  color: white;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+.Hello {
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
+  width: 50%;
+  margin-left: 350px;
+}
+.critical {
+  width: 25%;
+  float: right;
+}
+.math {
+  width: 25%;
+  float: left;
+}
+.criticalp {
+  margin-right: 700px;
+}
+.projects img{
+  width: 300px;
+  height: 300px;
+}
+.me {
+  float:left;
+  width: 14%;
+  margin-left: 100px;
+  border-radius: 50%;
+  margin-bottom: 500px;
+  margin-top: -40px;
+}

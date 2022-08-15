@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+*{
+	font-family:'Montserrat'
+}
+body{
+	background: #black;
+}
+h1 {
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+}
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	margin: 30px;
+/* -webkit-box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75);
+box-shadow: 0px -1px 34px -5px rgba(0,0,0,0.75); */
+	background:   #black;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+/* 		transform: rotateY(180deg); */
+	}
+
+.flip-container, .front, .back {
+	width: 400px;
+	height: 200px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.4s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:50px;
+
+}
+
+/* back, initially hidden pane */
+.back {
+
+	transform: rotateY(180deg);
+}
+
+
+.front, .back{
+	box-sizing: content-box !important;
+//	border-radius:10px;
+		background: white;
+		background: white;
+	color:black;
+}
+
+
+.defintion{
+	padding: 10px;
+	font-size: 15spx;
+}
+.system {
+  text-align: center;
+}
+#card4 {
+  margin-left:
+  margin-top:
+}
+#card3 {
+  margin-left:
+  margin-top:
+}
+.flash {
+  /* width: 500px; */
+  height: 300px;
+}
+
+.flip-container{
+  display: inline-block;
+}
